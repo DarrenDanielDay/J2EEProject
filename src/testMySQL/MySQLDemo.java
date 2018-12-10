@@ -12,7 +12,7 @@ public class MySQLDemo {
 			e.printStackTrace();
 		}
 		try {
-			Connection connect = DriverManager.getConnection("jdbc:mysql://192.168.1.104:3306/HelloMySQL", "root", "159753");
+			Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root", "159753");
 
 			System.out.println("Success connect MySql server!");
 			Statement stmt = connect.createStatement();
